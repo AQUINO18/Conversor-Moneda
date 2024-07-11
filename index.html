@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas - Sol Peruano a Dólares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Conversor de Monedas</h1>
+        <p>Convierte Soles Peruanos a Dólares Estadounidenses</p>
+
+        <div class="entrada">
+            <label for="cantidadSoles">Cantidad en Soles:</label>
+            <input type="number" id="cantidadSoles" step="0.01">
+        </div>
+
+        <button onclick="convertir()">Convertir</button>
+
+        <div class="salida">
+            <label for="cantidadDolares">Cantidad en Dólares:</label>
+            <input type="number" id="cantidadDolares" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
